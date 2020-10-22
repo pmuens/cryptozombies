@@ -1,0 +1,27 @@
+{
+  "name": "cryptozombies",
+  "version": "1.0.0",
+  "description": "This repository contains the consolidated and finalized code of the [cryptozombies.io](https://cryptozombies.io) project.",
+  "main": "truffle.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "truffle test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pmuens/cryptozombies.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pmuens/cryptozombies/issues"
+  },
+  "homepage": "https://github.com/pmuens/cryptozombies#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "truffle": "^5.1.50"
+  }
+}

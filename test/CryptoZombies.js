@@ -79,6 +79,7 @@ contract("CryptoZombies", (accounts) => {
     });
     const secondZombieId = result.logs[0].args.zombieId.toNumber();
     await time.increase(time.duration.days(1));
+
     await contractInstance.attack(firstZombieId, secondZombieId, {
       from: alice,
     });

@@ -1,6 +1,7 @@
-pragma solidity ^0.4.25;
+// SPDX-License-Identifier: MIT
+pragma solidity >=0.7.0 <0.8.0;
 
-contract ERC721 {
+interface ERC721 {
   event Transfer(address indexed _from, address indexed _to, uint256 indexed _tokenId);
   event Approval(address indexed _owner, address indexed _approved, uint256 indexed _tokenId);
 
